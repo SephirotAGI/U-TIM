@@ -3,4 +3,6 @@ A flexible mathematical framework to identify and quantify inconsistencies betwe
 
 I had to update the license, since there were two links to https://creativecommons.org/licenses/by/4.0/ on the same license
 
-Last README update: February 6, 2025, 17:35 UTC
+Added proper time-zone to my PDF
+
+Last README update: February 6, 2025 at 3:35 PM -03 (UTC)
