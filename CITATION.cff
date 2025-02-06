@@ -1,9 +1,9 @@
-## How to Cite U-TIM
-
-To cite U-TIM in your work, please use the following format:
-
-João Lucas Meira Costa. (2025). U-TIM: Universal Theory Incoherence Measure. GitHub. https://github.com/SephirotAGI/U-TIM
-
-For other citation formats (e.g., BibTeX, APA), please refer to the CITATION.cff file.
-
-  
+cff-version: 1.2.0
+title: "U-TIM: Universal Theory Incoherence Measure"
+authors:
+  - family-names: Meira Costa
+    given-names: João Lucas
+    orcid: https://orcid.org/0009-0009-8564-9397
+license: CC-BY-4.0
+date-released: 2025-02-06
+repository-code: https://github.com/SephirotAGI/U-TIM
