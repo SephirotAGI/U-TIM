@@ -1,0 +1,30 @@
+U-TIM: Universal Theory Incoherence Measure  
+===========================================  
+
+U-TIM is a framework for evaluating the coherence and divergence between mathematical models across disciplines. This guide provides a simple workflow for using U-TIM effectively.  
+
+How to Use U-TIM  
+----------------  
+
+1. Apply U-TIM (Detect Fundamental Incoherences)  
+   - Run U-TIM on the models you want to compare.  
+   - Check the U-TIM score:  
+     - If U-TIM ≥ 0.3 → Models are fundamentally incompatible. Stop here.  
+     - If U-TIM < 0.3 → No major divergence found. Move to Step 2.  
+
+2. Apply Traditional Coherence Measures (Refine Agreement)  
+   - If U-TIM does not find divergence, use traditional coherence measures:  
+     - Mutual Information (Information Theory) → Measures shared information.  
+     - Cosine Similarity (Vector Space Models) → Measures alignment between outputs.  
+     - Quantum Fidelity (Quantum Models) → Measures overlap between states.  
+   - Interpret Results:  
+     - High coherence → The models align well.  
+     - Low coherence → The models are partially aligned but differ in some conditions.  
+
+Summary  
+-------  
+1. U-TIM first → Finds incoherence.  
+2. If U-TIM shows no major divergence → Use other coherence measures to refine results.  
+3. This ensures the most complete and efficient model comparison.  
+
+For more details, refer to the full documentation.
