@@ -13,4 +13,6 @@ See the LICENSE file for full details.
 🔗 **Zenodo Page (Latest Version):** https://zenodo.org/records/14837761
 
 
-IMPORTANT NOTE:   I have cut-off the participation of the following AI models from the main project (equation development): ChatGPT and Gemini. I did it because they show A LOT of inconsistencies when trying to formulate equations. They are now adressed as "Former collaborators" in the paper's last version (4.0).
+IMPORTANT NOTE:   
+
+I have excluded the following AI models from the main project (equation development): ChatGPT and Gemini. This decision was made due to their frequent inconsistencies in formulating equations. In the latest version of the paper (4.0), they are now referred to as "Former Collaborators."
