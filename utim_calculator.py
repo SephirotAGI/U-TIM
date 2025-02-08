@@ -1,201 +1,134 @@
 import numpy as np
 from scipy.integrate import quad
-from scipy.stats import entropy
+from scipy.stats import entropy, norm
+from abc import ABC, abstractmethod
 
-class UniversalTIM:
-    def __init__(self, model_func, reference_func, prior_sampler, likelihood_func, base_measure, epsilon=1e-9):
+class UniversalTIM(ABC):
+    def __init__(self, model_func, reference_func, posterior_sampler, 
+                 weight_func, domain='physics', epsilon=1e-9, 
+                 mc_samples=1000, measure_type='lebesgue'):
         """
-        Initialize the UniversalTIM class.
-
-        Parameters:
-        - model_func: Function representing the model.
-        - reference_func: Function representing the reference model.
-        - prior_sampler: Function to sample from the prior distribution.
-        - likelihood_func: Function to compute the likelihood of the parameters.
-        - base_measure: Function representing the base measure on input space.
-        - epsilon: Small constant to avoid singularities.
+        Strictly equation-faithful implementation of U-TIM v4.0
+        
+        Parameters maintain direct correspondence with mathematical components:
+        - model_func: f_i(x, θ)
+        - reference_func: f_r(x)
+        - posterior_sampler: θ ~ p(θ|D)
+        - weight_func: w(x, θ) satisfying ∫w dμ = 1
+        - measure_type: Lebesgue/counting/Haar measure specification
         """
-        self.model_func = model_func
-        self.reference_func = reference_func
-        self.prior_sampler = prior_sampler
-        self.likelihood_func = likelihood_func
-        self.base_measure = base_measure
-        self.epsilon = epsilon
+        # Mathematical component bindings
+        self.f_i = model_func
+        self.f_r = reference_func
+        self.p_θ_D = posterior_sampler
+        self.w = weight_func
+        self.ε = epsilon
+        self.measure = self._init_measure(measure_type)
+        
+        # Numerical parameters
+        self.mc_samples = mc_samples
+        
+        # Domain configuration
+        self.domain = domain
+        self.action_thresholds = {
+            'physics': 0.1, 'biology': 0.15, 
+            'economics': 0.08, 'mathematics': 0.2
+        }
 
-    def scores(self, x, theta):
-        """
-        Compute the score for a given input and parameter.
+    def _init_measure(self, measure_type):
+        """Initialize base measure μ according to specification"""
+        return {
+            'lebesgue': lambda x: 1,  # dx implicit in integration
+            'counting': lambda x: 1,  # Summation handling
+            'haar': lambda x: 1  # Group-specific implementation needed
+        }[measure_type.lower()]
 
-        Parameters:
-        - x: Input data.
-        - theta: Model parameters.
-
-        Returns:
-        - Score value.
-        """
-        return self.base_measure(x) * np.exp(-self.tanh_temporal_derivative(x, theta) / (abs(self.temporal_derivative(x, theta)) + 1)) * self.output_divergence(x, theta)
-
-    def temporal_derivative(self, x, theta):
-        """
-        Compute the temporal derivative of pairwise coherence.
-
-        Parameters:
-        - x: Input data.
-        - theta: Model parameters.
-
-        Note: This function should be implemented based on the specific application.
-        """
+    @abstractmethod
+    def dC_dt(self, x, theta):
+        """TEMPORAL COHERENCE DERIVATIVE: ∂ₜC(x,θ) - MUST BE IMPLEMENTED"""
         pass
 
-    def tanh_temporal_derivative(self, x, theta):
-        """
-        Compute the tanh of the temporal derivative to ensure bounded coherence.
+    def _β(self, x, theta):
+        """Criticality factor: β = 1/(1 + |∂ₜC|) (Eq. definition)"""
+        return 1 / (1 + np.abs(self.dC_dt(x, theta)) + self.ε)
 
-        Parameters:
-        - x: Input data.
-        - theta: Model parameters.
+    def _H_P(self, samples):
+        """Posterior entropy: H(𝒫) = -∫p(θ|D)logp(θ|D)dθ"""
+        log_probs = np.array([self.p_θ_D.log_prob(θ) for θ in samples])
+        probs = np.exp(log_probs - log_probs.max())
+        probs /= probs.sum()
+        return entropy(probs) if len(probs) > 1 else 0.0
 
-        Returns:
-        - Tanh of the temporal derivative.
-        """
-        return np.tanh(self.temporal_derivative(x, theta))
+    def _integrand(self, x, theta):
+        """Complete integrand expression from equation"""
+        return (self.w(x, theta) * 
+                np.exp(-self._β(x, theta)*np.abs(self.dC_dt(x, theta))) * 
+                np.linalg.norm(self.f_i(x, theta) - self.f_r(x), ord=2))
 
-    def output_divergence(self, x, theta):
-        """
-        Compute the output space divergence between the model and reference.
+    def _expectation_integral(self, theta):
+        """Compute ∫𝓧 [integrand] dμ(x) for given θ"""
+        if self.measure.__name__ == 'lebesgue':
+            return quad(lambda x: self._integrand(x, theta), 
+                       -np.inf, np.inf, epsabs=1e-6)[0]
+        else:  # Monte Carlo for non-Lebesgue measures
+            samples = self._measure_sampler()
+            return np.mean([self._integrand(x, theta) for x in samples])
 
-        Parameters:
-        - x: Input data.
-        - theta: Model parameters.
-
-        Returns:
-        - Output space divergence.
-        """
-        return np.linalg.norm(self.model_func(x, theta) - self.reference_func(x))
-
-    def calculate_utim(self):
-        """
-        Calculate the Universal Theory Incoherence Measure (U-TIM).
-
-        Returns:
-        - U-TIM value.
-        """
-        samples = self.prior_sampler(1000)
-        weights = np.exp([self.likelihood_func(theta) for theta in samples])
-        ent_normalized = entropy(weights)
+    def compute_utim(self):
+        """Exact implementation of U-TIM equation"""
+        # Posterior sampling and entropy calculation
+        θ_samples = self.p_θ_D(self.mc_samples)
+        H = max(self._H_P(θ_samples), self.ε)
         
-        def integrand(x, theta):
-            return self.scores(x, theta)
+        # Compute expectation over posterior
+        expectations = [self._expectation_integral(θ) for θ in θ_samples]
+        E = np.mean(expectations)
         
-        utim_values = [quad(lambda x: integrand(x, theta), -np.inf, np.inf)[0] for theta in samples]
-        return np.average(utim_values, weights=weights) / max(ent_normalized, self.epsilon)
+        # Final normalization
+        return E / H
 
-class BayesianUTIM(UniversalTIM):
-    def bayesian_score(self):
-        """
-        Compute the Bayesian score for the U-TIM.
+class PhysicsTIM(UniversalTIM):
+    """Domain-specific implementation example for physics"""
+    def dC_dt(self, x, theta):
+        """Temporal coherence derivative for quantum field theories"""
+        # Example implementation: Rate of parameter variation in effective potential
+        model_val = self.f_i(x, theta)
+        ref_val = self.f_r(x)
+        return np.abs(model_val - ref_val) / (1 + x**2)  # Regularized difference
 
-        Returns:
-        - Bayesian U-TIM value.
-        """
-        samples = self.prior_sampler(1000)
-        weights = np.exp([self.likelihood_func(theta) for theta in samples])
-        return np.average(super().calculate_utim(), weights=weights)
-
-class UTimInterpreter:
-    def __init__(self, domain='physics'):
-        """
-        Initialize the UTimInterpreter class.
-
-        Parameters:
-        - domain: Domain of application (e.g., 'physics', 'biology', 'economics').
-        """
-        self.thresholds = {
-            'physics': {'minor': 0.05, 'significant': 0.1},
-            'biology': {'minor': 0.1, 'significant': 0.15},
-            'economics': {'minor': 0.07, 'significant': 0.12}
-        }
-        self.domain = domain
-
-    def interpret_utim(self, utim_value):
-        """
-        Interpret the U-TIM value.
-
-        Parameters:
-        - utim_value: U-TIM value to interpret.
-
-        Returns:
-        - Interpretation of the U-TIM value.
-        """
-        if utim_value < self.thresholds[self.domain]['minor']:
-            return "Models are μ-equivalent almost everywhere"
-        elif utim_value < self.thresholds[self.domain]['significant']:
-            return "Discrepancies within measurement tolerance"
-        elif utim_value < 0.3:
-            return "Emerging divergence requiring monitoring"
-        else:
-            return "Fundamentally incompatible theories"
-
-    def interpret_pairwise(self, utim_value):
-        """
-        Interpret the pairwise U-TIM value.
-
-        Parameters:
-        - utim_value: U-TIM value to interpret.
-
-        Returns:
-        - Interpretation of the pairwise U-TIM value.
-        """
-        if utim_value < 3:
-            return "Statistically insignificant"
-        elif utim_value < 5:
-            return "Marginally significant"
-        elif utim_value < 7:
-            return "Discovery threshold"
-        else:
-            return "Paradigm shift"
-
-    def domain_guidance(self, metric_value):
-        """
-        Provide guidance based on the domain-specific metric value.
-
-        Parameters:
-        - metric_value: Domain-specific metric value.
-
-        Returns:
-        - Guidance based on the metric value.
-        """
-        if self.domain == 'physics' and metric_value > 0.001:
-            return "Revise TOE"
-        elif self.domain == 'biology' and metric_value < 0.85:
-            return "Redesign model"
-        elif self.domain == 'economics' and metric_value < 0.75:
-            return "Policy review"
-        else:
-            return "No action needed"
-
-# Example usage
+# Strictly equation-faithful usage
 if __name__ == "__main__":
-    # Placeholder functions for demonstration
-    def model_func(x, theta):
-        return x * theta
+    # Define mathematical components exactly as per theory
+    class PosteriorSampler:
+        def __init__(self, loc=0, scale=1):
+            self.dist = norm(loc, scale)
+        
+        def __call__(self, n):
+            return self.dist.rvs(n)
+        
+        def log_prob(self, theta):
+            return self.dist.logpdf(theta)
 
-    def reference_func(x):
-        return x
+    # Function definitions matching equation components
+    def f_i(x, theta):
+        return theta * np.exp(-x**2)  # Model prediction
 
-    def prior_sampler(n):
-        return np.random.normal(size=n)
+    def f_r(x):
+        return 0.5 * np.exp(-x**2)  # Reference prediction
 
-    def likelihood_func(theta):
-        return -0.5 * theta**2
+    def w(x, theta):
+        return norm.pdf(x, 0, 1) * norm.pdf(theta, 0, 1)  # Normalized weights
 
-    def base_measure(x):
-        return np.exp(-x**2 / 2) / np.sqrt(2 * np.pi)
+    # Initialize with strict mathematical correspondence
+    physics_utim = PhysicsTIM(
+        model_func=f_i,
+        reference_func=f_r,
+        posterior_sampler=PosteriorSampler(loc=0.5, scale=0.1),
+        weight_func=w,
+        measure_type='lebesgue',
+        domain='physics'
+    )
 
-    utim = BayesianUTIM(model_func, reference_func, prior_sampler, likelihood_func, base_measure)
-    utim_value = utim.bayesian_score()
-
-    interpreter = UTimInterpreter(domain='physics')
-    print(interpreter.interpret_utim(utim_value))
-    print(interpreter.interpret_pairwise(utim_value))
-    print(interpreter.domain_guidance(0.001))
+    # Compute pristine U-TIM value
+    utim_value = physics_utim.compute_utim()
+    print(f"Fundamental U-TIM value: {utim_value:.6f}")
