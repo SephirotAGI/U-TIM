@@ -11,3 +11,8 @@ This work is licensed under the **Creative Commons Attribution 4.0 International
 See the LICENSE file for full details.
 
 🔗 **Zenodo Page (Latest Version):** https://zenodo.org/records/14837520
+
+
+IMPORTANT NOTE:  I have cut-off the participation of the following AI models from the main project (equation development): ChatGPT and Gemini. That is why they are not in the latest version of the Paper (reverted to 3.0). I did it because they show A LOT of inconsistencies when trying to formulate equations. But I will also mention them here in the README. 
+
+Former collaborators: ChatGPT & Gemini (AI models).
