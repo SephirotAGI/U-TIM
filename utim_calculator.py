@@ -88,7 +88,7 @@ class UniversalTIM:
             return self.scores(x, theta)
         
         utim_values = [quad(lambda x: integrand(x, theta), -np.inf, np.inf)[0] for theta in samples]
-        return np.average(utim_values, weights=weights) / max(1/4, self.epsilon)
+        return np.average(utim_values, weights=weights) / max(ent_normalized, self.epsilon)
 
 class BayesianUTIM(UniversalTIM):
     def bayesian_score(self):
