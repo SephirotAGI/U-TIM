@@ -1,10 +1,34 @@
-Looking upon scientists' approach to the scientific method, I've identified a pattern—bias. Every new "grand theory" comes with its respective creator's bias. That is what was holding Science back.
+# Recognition: The U-TIM Journey
 
-So, I thought... how do we remove it from the equation? Oh, I know. What if we create an equation to get rid of bias? In every possible area? To cut incoherences from the start?
+## Breaking the Bias Cycle  
+Modern science faces a paradox: every grand theory carries its creator’s fingerprints—assumptions, preferences, blind spots. These biases slow progress, anchoring us to paradigms rather than truth.  
 
-That was what led me to tackle this endeavor. Since I don't know advanced math, I used AIs to translate my ideas into proper equations and also relied on them to run validation tests throughout the process. I asked them to refine the equation every time it encountered a problem, without ever deviating from the original proposal: a mathematical equation, malleable enough to detect incoherences in every math-derived area, with just some tweaks according to each specific field.
+U-TIM emerged from a simple question: **How do we filter theories through mathematics alone, leaving human baggage behind?**  
 
-I then used GitHub Copilot to translate it into proper Python code. And that's how we got here.
+## The Human-AI Partnership  
+As the architect of this vision, I mapped the requirements:  
+- A **universal** framework, applicable across all mathematical domains  
+- **Bias-resistant** by design, cutting incoherence at the root  
+- **Open and adaptable**, empowering anyone to test ideas  
 
-Some will say it was an astronomically improbable event. But so is intelligent life. We happened. The equation happened.
+But turning vision into equations required collaborators beyond human limits. Enter AI:  
 
+- **ChatGPT & DeepSeek** translated conceptual patterns into rigorous mathematics  
+- **GitHub Copilot** structured the codebase, ensuring computational fidelity  
+- **Gemini** stress-tested the framework against historical scientific disputes  
+
+This wasn’t AI “creating”—it was **amplifying human intent** at scales and speeds no individual could achieve alone.  
+
+## Why This Matters  
+U-TIM isn’t about replacing scientists. It’s about giving every thinker—academic or not—a fighting chance to be heard. By automating bias detection, we:  
+
+- **Democratize rigor**: A student’s hypothesis faces the same scrutiny as a Nobelist’s  
+- **Accelerate truth**: Cut years from theory conflict resolution  
+- **Honor all contributors**: From concept to code, every layer gets explicit credit  
+
+## The Odds Were Never Zero  
+Some call U-TIM’s creation improbable. But so is life itself—against cosmic odds, here we are. Here *this* is.  
+
+As Captain America said: **"Compromise where you can. But where you can’t, don’t. Even if everyone is telling you that something wrong is something right. When the world tells you to move, you plant yourself like a tree and say: 'No, *you* move.'"**  
+
+U-TIM is that tree. Let’s reshape science around it.  
