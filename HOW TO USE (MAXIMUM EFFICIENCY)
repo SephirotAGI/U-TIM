@@ -1,30 +1,47 @@
-U-TIM: Universal Theory Incoherence Measure  
-===========================================  
+U-TIM: Universal Theory Incoherence Measure (v4.0)  
+=================================================  
 
-U-TIM is a framework for evaluating the coherence and divergence between mathematical models across disciplines. This guide provides a simple workflow for using U-TIM effectively.  
+A framework for quantifying theoretical divergence across disciplines using entropy-normalized Bayesian analysis.  
 
-How to Use U-TIM  
-----------------  
+How to Use U-TIM v4.0  
+---------------------  
 
-1. Apply U-TIM (Detect Fundamental Incoherences)  
-   - Run U-TIM on the models you want to compare.  
-   - Check the U-TIM score:  
-     - If U-TIM ≥ 0.3 → Models are fundamentally incompatible. Stop here.  
-     - If U-TIM < 0.3 → No major divergence found. Move to Step 2.  
+1. **Apply U-TIM v4.0** (Detect Fundamental Incoherences)  
+   - Run U-TIM with domain-specific parameters:  
+     ```python
+     interpreter = UTimInterpreter(domain='physics')  # biology/economics/math
+     ```  
+   - Check results:  
+     - `U-TIM ≥ 0.3` → **Radical Incompatibility** (Paradigm shift likely. Stop here.)  
+     - `0.12 ≤ U-TIM < 0.3` → **Critical Region** (Monitor temporal derivative ∂ₜC)  
+     - `U-TIM < 0.12` → Proceed to Step 2  
 
-2. Apply Traditional Coherence Measures (Refine Agreement)  
-   - If U-TIM does not find divergence, use traditional coherence measures:  
-     - Mutual Information (Information Theory) → Measures shared information.  
-     - Cosine Similarity (Vector Space Models) → Measures alignment between outputs.  
-     - Quantum Fidelity (Quantum Models) → Measures overlap between states.  
-   - Interpret Results:  
-     - High coherence → The models align well.  
-     - Low coherence → The models are partially aligned but differ in some conditions.  
+2. **Apply Augmented Coherence Measures**  
+   If U-TIM shows no radical divergence:  
+   - **Bayesian Mutual Information**:  
+     ```python
+     bayesian_mi = calculate_bayesian_mi(model1, model2, prior_samples=1000)
+     ```  
+   - **Wasserstein Distance**:  
+     ```python
+     w_dist = wasserstein_distance(model1_outputs, model2_outputs)
+     ```  
+   - **Renormalized Cosine Similarity**:  
+     ```python
+     similarity = entropy_aware_cosine(f1, f2, H_ref)
+     ```  
 
-Summary  
--------  
-1. U-TIM first → Finds incoherence.  
-2. If U-TIM shows no major divergence → Use other coherence measures to refine results.  
-3. This ensures the most complete and efficient model comparison.  
+3. **Statistical Validation**  
+   - Compute significance:  
+     ```python
+     significance = utim_score / reference_std  
+     ```  
+   - Interpret:  
+     - `≥5σ`: Discovery threshold  
+     - `≥7σ`: Paradigm shift candidate  
 
-For more details, refer to the full documentation.
+Key Changes in v4.0  
+-------------------  
+- **Thresholds now domain-adaptive**:  
+  ```python
+  thresholds = {'physics':0.1, 'biology':0.15, 'economics':0.08}
