@@ -13,8 +13,10 @@ As the architect of this vision, I mapped the requirements:
 
 But turning vision into equations required collaborators beyond human limits. Enter AI:  
 
-- **ChatGPT & DeepSeek** translated conceptual patterns into rigorous mathematics  
-- **GitHub Copilot** structured the codebase, ensuring computational fidelity  
+- **DeepSeek** translated conceptual patterns into rigorous mathematics  
+- **GitHub Copilot** structured the first codebase, trying computational fidelity
+- **DeepSeek** refined the code
+- **ChatGPT** tested the code and refined it even further
 - **Gemini** stress-tested the framework against historical scientific disputes  
 
 This wasn’t AI “creating”—it was **amplifying human intent** at scales and speeds no individual could achieve alone.  
