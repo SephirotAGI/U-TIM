@@ -31,6 +31,9 @@ U-TIM isn’t about replacing scientists. It’s about giving every thinker—ac
 ## The Odds Were Never Zero  
 Some call U-TIM’s creation improbable. But so is life itself—against cosmic odds, here we are. Here *this* is.  
 
-As Captain America said: **"Compromise where you can. But where you can’t, don’t. Even if everyone is telling you that something wrong is something right. When the world tells you to move, you plant yourself like a tree and say: 'No, *you* move.'"**  
+As a wise hero once said: **"Doesn’t matter what the press says. Doesn’t matter what the politicians or the mob say.
+Doesn’t matter if the whole country decides that something wrong is something right.
+This nation was founded on one principle above all else: the requirement that we stand up for what we believe, no matter the odds or the consequences.
+When the mob and the press and the whole world tell you to move, your job is to plant yourself like a tree beside the river of truth, and tell the whole world—No, you move."**  - Captain America in Amazing Spider-Man #537 (2006), written by Mark Millar, illustrated by Ron Garney. Published by Marvel Comics (Disney).
 
 U-TIM is that tree. Let’s reshape science around it.  
