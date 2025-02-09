@@ -31,6 +31,21 @@ U-TIM isn’t about replacing scientists. It’s about giving every thinker—ac
 ## The Odds Were Never Zero  
 Some call U-TIM’s creation improbable. But so is life itself—against cosmic odds, here we are. Here *this* is.  
 
-"A river does not ask permission to flow, nor does a tree seek approval to stand. When the world demands you change, be like the tree—rooted in truth. In time, the river will carve a new path."
+**"And so they said:**  
+**‘Come, let us build a city and raise a tower to the heavens,**  
+**so that we may make a name for ourselves,**  
+**lest we be scattered across the earth.’**  
 
-U-TIM is that tree. Let’s reshape science around it.  
+**But this time—**  
+- **Not in arrogance, but in wisdom.**  
+- **Not of stone and conquest, but of truth and understanding.**  
+- **Not to defy the divine, but to honor the pursuit of knowledge.**  
+- **Not to divide, but to unite.**  
+
+**A tower—**  
+- **Not to crumble, but to endure.**  
+- **A foundation—Not to imprison, but to uplift.**  
+- **A name—Not for the few, but for all.**  
+
+**And so, the tower rises once more—**  
+**Not to fall, but to stand.**"  
