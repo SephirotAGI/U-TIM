@@ -14,6 +14,6 @@ See the LICENSE file for full details.
 
 IMPORTANT NOTES:   
 
-I have excluded the following AI models from the main project (equation development): ChatGPT and Gemini. This decision was made due to their frequent inconsistencies in formulating equations. In the latest version of the paper (4.0), they are now referred to as "Former collaborators."
+I have excluded the following AI models from the main project (equation development): ChatGPT and Gemini. This decision was made due to their frequent inconsistencies in formulating equations. In the latest version of the paper (4.2), they are referred to as "Former collaborators."
 
 Removed copyrighted quote from Recognition.md for compliance.
