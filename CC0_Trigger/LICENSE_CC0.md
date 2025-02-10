@@ -19,12 +19,14 @@ U-TIM: Universal Theory Incoherence Measure is currently licensed under the
 ## Section 2: Automatic Transition to CC0 Upon Author’s Death
 
 ### Immediate License Change to Public Domain
-Upon the **confirmed death of João Lucas Meira Costa**, U-TIM shall **immediately and permanently transition** to the **Creative Commons Zero (CC0) License**, placing it fully in the **public domain worldwide**.
+Upon the **confirmed death of the author (João Lucas Meira Costa)**, U-TIM, as well as any implementations of it,  
+including **software, algorithms, computational tools, and all derived works**, shall immediately  
+and permanently transition to the **Creative Commons Zero (CC0) License (Public Domain).**  
 
-### What This Means:
-- **No individual, corporation, university, or government can claim ownership of U-TIM.**
-- **U-TIM becomes completely unrestricted, meaning anyone can use, modify, distribute, and apply it for any purpose without attribution.**
-- **This transition is automatic and irreversible.**
+This means:  
+- **No individual, corporation, university, or government may impose restrictions** on U-TIM or any of its derivatives.  
+- **All versions of U-TIM and any software, models, or research based on it** become completely unrestricted.  
+- **This transition is automatic and irreversible.**  
 
 ---
 
