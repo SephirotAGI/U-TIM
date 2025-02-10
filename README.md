@@ -27,30 +27,25 @@ FOR FULL DETAILS ON THIS PROCESS, SEE THE **[`CC0_ACTIVATION_GUIDE.md`](https://
 ---
 
 
-## What's New in Version 5.0?  
-U-TIM version 5.0 updates the **core U-TIM framework** and introduces **U-TIM-X**, a meta-analytical extension that enhances cross-domain analysis by integrating domain-specific incoherence assessments. **U-TIM-X**  
-comprises two complementary formulations: **U-TIM-Xstat** for standardized cross-disciplinary  
-comparisons and **U-TIM-Xdyn** for dynamic tracking of emerging theoretical instabilities. Together, these extensions establish a unified methodology for quantifying and analyzing theoretical divergence across multiple scientific domains.
-
-### U-TIM-X Extensions  
-- **U-TIM-Xstat** → Standardized cross-domain comparison of incoherence.  
-- **U-TIM-Xdyn** → Dynamic tracking of instability and emerging theoretical inconsistencies.  
-
-Together, these extensions enable **comprehensive monitoring and synthesis of theoretical divergence across multiple scientific fields**.  
-
----
-
-## AI Re-Inclusion Notice  
-In this version, ChatGPT and Gemini have been re-integrated into the main project. Their  
-exclusion in previous iterations was due to incorrect utilization rather than inherent limitations  
-in their capabilities.  
+## What's New in Version 5.1?  
+U-TIM: Universal Theory Incoherence Measure (version 5.1) retains the core U-TIM equa-
+tion introduced in version 5.0, establishing a standardized framework for cross-disciplinary
+theoretical analysis with domain-adaptable components. This version continues to optimize di-
+vergence measures, domain-specific interpretation thresholds, and numerical stability, ensuring
+alignment with established methodologies in quantum physics, ecosystem modeling, economic
+policy, and mathematical foundations.
+Additionally, it maintains the expanded framework of U-TIM-X, first presented in ver-
+sion 5.0—a meta-analytical extension unifying domain-specific U-TIM results into a structured
+cross-domain synthesis. U-TIM-X consists of two complementary formulations: U-TIM-Xstat ,
+for standardized cross-disciplinary comparisons, and U-TIM-Xdyn , for dynamic tracking of
+emerging theoretical instabilities. Together, these extensions establish a unified methodology
+for quantifying and analyzing theoretical divergence across multiple scientific domains.
+This version also includes a correction to the U-TIM-Xdyn equation, ensuring its intended
+functionality, along with an update to the "Note on Divergence Measures" within the Mathe-
+matical Definition of U-TIM-Xdyn.
 
 ---
 
 ## Compliance Updates  
 **Removed copyrighted quote** from *Recognition.md* to ensure full compliance.  
-
-## CITATION.cff Updates
-
-**I have updated `CITATION.cff` to match "U-TIM: Universal Theory Incoherence Measure.pdf" latest version. I uploaded this PDF on 2025-02-09, but only updated `CITATION.cff` later (in the first hours of the next day: 2025-02-10).**
 
