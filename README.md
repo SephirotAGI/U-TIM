@@ -10,7 +10,7 @@
 This work is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
 See the LICENSE file for full details.  
 
-🔗 **Zenodo Page (Latest Version):** [Zenodo Record](https://zenodo.org/records/14841955)
+🔗 **Zenodo Page (Latest Version):** [Zenodo Record](https://zenodo.org/records/14846098)
 
 ---
 **IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
