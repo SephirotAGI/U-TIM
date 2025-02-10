@@ -52,8 +52,8 @@ This transition is considered **legally valid and enforceable** upon **any of th
 ### Software Built Using U-TIM
 This license applies to all derivative works based on U-TIM, including but not limited to **software implementations, algorithms, and computational tools.**  
 
-- Any software that **incorporates, extends, or is fundamentally based on U-TIM** must also be released under **CC BY 4.0** (while the author is alive).  
-- Upon the author's death, **all software implementations of U-TIM shall transition to CC0, making them permanently public domain.**  
+- Any software that **incorporates, extends, or is fundamentally based on U-TIM** must be licensed under **CC BY 4.0**, which explicitly permits **commercial use**, provided proper **credit is given to the author**. This requirement applies **only while the author is alive**.  
+- **Upon the author's death, all such works will automatically transition to CC0 (public domain), permanently removing attribution requirements and ensuring unrestricted use.**  
 
 ---
 
