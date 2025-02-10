@@ -6,8 +6,10 @@ U-TIM is currently licensed under **CC BY 4.0**, which allows free use, adaptati
 For reference, an **exact copy** of this license has also been placed in this folder under **LICENSE_CC_BY_4.0.md** to ensure a historical record of the licensing terms at the time of publication.  
 
 ## Future License (CC0 Activation)  
-Upon the **confirmed death of the author (João Lucas Meira Costa)**, U-TIM shall immediately and permanently transition to **CC0 (Public Domain),** ensuring that no entity—corporate, governmental, or otherwise—can ever claim exclusive control over it.  
-
+Upon the **confirmed death of the author (João Lucas Meira Costa)**, U-TIM, as well as any implementations of it,  
+including **software, algorithms, and derived works**, shall immediately and permanently transition to **CC0 (Public Domain),**  
+ensuring that no entity—corporate, governmental, or otherwise—can ever claim exclusive control over it.  
+ 
 ### How This Transition is Verified:  
 - **Public ORCID status update (linked to Zenodo/GitHub). ORCID does not display deceased status publicly, but verification can be requested from ORCID Support or confirmed through Zenodo records. Profile: https://orcid.org/0009-0009-8564-9397**
 - **Official government death record.**  
