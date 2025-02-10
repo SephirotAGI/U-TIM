@@ -13,6 +13,19 @@ See the LICENSE file for full details.
 🔗 **Zenodo Page (Latest Version):** [Zenodo Record](https://zenodo.org/records/14841955)
 
 ---
+**IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
+UPON CONFIRMATION OF MY DEATH, U-TIM, AS WELL AS ANY IMPLEMENTATIONS OF IT,  
+INCLUDING SOFTWARE, ALGORITHMS, AND DERIVED WORKS, SHALL IMMEDIATELY AND PERMANENTLY  
+TRANSITION TO THE **PUBLIC DOMAIN UNDER CC0**.  
+
+NO ENTITY—CORPORATE, GOVERNMENTAL, OR OTHERWISE—MAY IMPOSE RESTRICTIONS OR  
+CLAIM EXCLUSIVE RIGHTS OVER U-TIM OR ANY OF ITS DERIVATIVES. THIS TRANSITION IS **AUTOMATIC AND IRREVERSIBLE**.  
+
+FOR FULL DETAILS ON THIS PROCESS, SEE THE **[`CC0_ACTIVATION_GUIDE.md`](https://github.com/SephirotAGI/U-TIM/tree/main/CC0_Trigger/CC0_ACTIVATION_GUIDE.md)**.
+
+
+---
+
 
 ## What's New in Version 5.0?  
 U-TIM version 5.0 updates the **core U-TIM framework** and introduces **U-TIM-X**, a meta-analytical extension that enhances cross-domain analysis by integrating domain-specific incoherence assessments. **U-TIM-X**  
