@@ -1,11 +1,12 @@
-cff-version: 1.3.1
+cff-version: 1.3.2
 title: "U-TIM: Universal Theory Incoherence Measure"
-version: "5.0"
+version: "5.1"
 authors:
   - family-names: Meira Costa
     given-names: João Lucas
     orcid: https://orcid.org/0009-0009-8564-9397
 license: CC-BY-4.0
-date-released: 2025-02-09
+message: "This work is currently licensed under CC BY 4.0. Upon the author's death, it will automatically transition to CC0 (Public Domain). For details, see: https://github.com/SephirotAGI/U-TIM/tree/main/CC0_Trigger"
+date-released: 2025-02-10
 repository: https://github.com/SephirotAGI/U-TIM
-doi: 10.5281/zenodo.14841955
+doi: https://doi.org/10.5281/zenodo.14846098
