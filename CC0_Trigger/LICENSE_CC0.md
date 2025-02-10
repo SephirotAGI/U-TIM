@@ -49,6 +49,8 @@ This transition is considered **legally valid and enforceable** upon **any of th
 
 **Full CC0 License Text:** [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
 
+---
+
 ### Software Built Using U-TIM
 This license applies to all derivative works based on U-TIM, including but not limited to **software implementations, algorithms, and computational tools.**  
 
