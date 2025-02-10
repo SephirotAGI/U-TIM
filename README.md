@@ -28,7 +28,7 @@ Together, these extensions enable **comprehensive monitoring and synthesis of th
 ---
 
 ## AI Re-Inclusion Notice  
-In this version, ChatGPT and Gemini have been reintegrated into the main project. Their  
+In this version, ChatGPT and Gemini have been re-integrated into the main project. Their  
 exclusion in previous iterations was due to incorrect utilization rather than inherent limitations  
 in their capabilities.  
 
