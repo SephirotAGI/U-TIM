@@ -36,3 +36,8 @@ in their capabilities.
 
 ## Compliance Updates  
 **Removed copyrighted quote** from *Recognition.md* to ensure full compliance.  
+
+## CITATION.cff Updates
+
+**I have updated `CITATION.cff` to match "U-TIM: Universal Theory Incoherence Measure.pdf" latest version. I uploaded this PDF on 2025-02-09, but only updated `CITATION.cff` later (in the first hours of the next day: 2025-02-10).**
+
