@@ -4,6 +4,7 @@
 
 The Universal Theory Incoherence Measure (U-TIM)'s first PDF file (version 1.0), named "U-TIM (version 1.0).pdf", was uploaded in the GitHub repository  
 under commit hash: **15d8ccf6e40bf84791610acee139ba54aa1b32ca**  
+Direct link: https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
 **Commit Timestamp:** Thu Feb 6 **14:46:45 2025 UTC-3**  
 **Converted to UTC:** Thu Feb 6 **17:46:45 2025 UTC**  
 
