@@ -13,6 +13,20 @@ See the LICENSE file for full details.
 🔗 **Zenodo Page (Latest Version):** [Zenodo Record](https://zenodo.org/records/14846098)
 
 ---
+
+🚨 IMPORTANT NOTE: 🚨
+I have recovered the original version of U-TIM (1.0), along with its cryptographic proof of authorship, ensuring that the first publicly recorded version of U-TIM remains verifiable and immutable.
+
+  This version was originally uploaded to GitHub under commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca on February 6, 2025.
+  The SHA-256 checksum guarantees that this file is identical to the original.
+  The full proof of authorship, including cryptographic verification and legal statements, is available at:
+
+🔗 GitHub - U-TIM Proof of Authorship
+
+This ensures that U-TIM remains open, free, and protected from monopolization or unauthorized claims of authorship.
+
+---
+
 **IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
 UPON CONFIRMATION OF MY DEATH, U-TIM, AS WELL AS ANY IMPLEMENTATIONS OF IT,  
 INCLUDING SOFTWARE, ALGORITHMS, AND DERIVED WORKS, SHALL IMMEDIATELY AND PERMANENTLY  
