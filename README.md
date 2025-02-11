@@ -21,7 +21,7 @@ I have recovered the original version of U-TIM (1.0), along with its cryptograph
   The SHA-256 checksum guarantees that this file is identical to the original.
   The full proof of authorship, including cryptographic verification and legal statements, is available at:
 
-🔗 GitHub - U-TIM Proof of Authorship
+https://github.com/SephirotAGI/U-TIM/tree/main/U-TIM_Proof_of_Authorship
 
 This ensures that U-TIM remains open, free, and protected from monopolization or unauthorized claims of authorship.
 
