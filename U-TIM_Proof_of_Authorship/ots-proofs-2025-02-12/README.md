@@ -11,5 +11,12 @@ These timestamps have been committed to the **Bitcoin blockchain**, ensuring an 
 
 ## How to Verify:
 To verify the authenticity and timestamp of a file, use OpenTimestamps:
+
+https://opentimestamps.org/
+
+Stamp & Verify -> Drop the .ots proof and then its respective file
+
+Or
+
 ```sh
 opentimestamps-cli verify filename.ots
