@@ -20,5 +20,11 @@ Wayback Machine link: https://web.archive.org/web/20250211060623/https://github.
 
 ArDrive with all content: https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
 
+UPDATE TO Timestamp_Proof_1.md
+
+The updated version of Timestamp_Proof_1.md ONLY ADDED a direct link to commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, without altering its content. You can verify this through these following links:
+https://github.com/SephirotAGI/U-TIM/commit/147762cbf6520223a72c33322a6628ce1307620b
+https://web.archive.org/web/20250212125258/https://github.com/SephirotAGI/U-TIM/commit/147762cbf6520223a72c33322a6628ce1307620b
+
 **- João Lucas Meira Costa**
 
