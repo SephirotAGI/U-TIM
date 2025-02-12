@@ -1,7 +1,7 @@
 # OpenTimestamps Proofs (Generated on 2025-02-12 UTC-3)
 
 ## Purpose:
-This folder contains OpenTimestamps (`.ots`) files that cryptographically prove the existence of key documents related to the **U-TIM (Universal Theory Incoherence Measure)** project **no later than February 12, 2025**.
+This folder contains OpenTimestamps (`.ots`) files that cryptographically prove the existence of key documents related to the **U-TIM (Universal Theory Incoherence Measure)** project (U-TIM-archive.zip; commit_proof_v1_screenshots.zip; Traffic · SephirotAGI_U-TIM.pdf; Traffic_proof_screenshots.zip) **no later than February 12, 2025**.
 
 These timestamps have been committed to the **Bitcoin blockchain**, ensuring an immutable, verifiable record of the documents' existence as of this date.
 
