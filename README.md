@@ -33,6 +33,8 @@ Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one avail
 
 And, please, don't you ever trust ChatGPT for important issues.
 
+**This project will be suspended until I can effectively prove my authorship.**
+
 ---
 
 **IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
