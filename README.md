@@ -23,7 +23,9 @@ I have recovered the original version of U-TIM (1.0), along with its cryptograph
 
 https://github.com/SephirotAGI/U-TIM/tree/main/U-TIM_Proof_of_Authorship
 
- I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, the git log --oneline | grep 15d8ccf6e40bf84791610acee139ba54aa1b32ca command does not show results anymore, since the commit was purged/rewritten. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
+Posterior note (2025-02-13):
+
+I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, the git log --oneline | grep 15d8ccf6e40bf84791610acee139ba54aa1b32ca command does not show results anymore, since the commit was purged/rewritten. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
 Check this link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca It contains a snapshot from the commit days before I did this mess.
 
