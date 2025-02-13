@@ -30,20 +30,54 @@ What This Means for You:
   If you’re concerned about the authenticity or integrity of the original U-TIM (version 1.0).pdf, I want to assure you that the file has not been modified. The commit timestamp and the file content remain intact.
   The new files I added just provide important information regarding citations and future licensing changes, ensuring that U-TIM remains open and accessible to everyone.
 
-Commit History and Reversion Explanation:
+**Commit History and Reversion Explanation:**
 
 If you notice any discrepancies in the commit history or see that the commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca was reintroduced or restored, it's because I reverted to the original commit after it was temporarily removed. I did this to ensure full transparency and that no content was lost during the transition.
 In Summary:
 
   The file content of U-TIM (version 1.0).pdf remains unaltered.
-  The new documents I added simply clarify the citation and future licensing of the project.
   There was no tampering or modification of the original file, and the commit simply had to be restored after a short-term removal.
 
-Next Steps:
+**Next Steps:**
 
 If you want to compare to the original 15d8ccf6e40bf84791610acee139ba54aa1b32ca commit, please check U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
-Conclusion:
+**Comparison:**
+
+If you want to be sure, run git log -n 1 --pretty=fuller 15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+It will show this:
+
+commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca
+Author:     Sephirot <126601000+SephirotAGI@users.noreply.github.com>
+AuthorDate: Thu Feb 6 14:46:45 2025 -0300
+Commit:     GitHub <noreply@github.com>
+CommitDate: Thu Feb 6 14:46:45 2025 -0300
+
+    Add files via upload
+
+AND
+
+git diff 15d8ccf6e40bf84791610acee139ba54aa1b32ca^ 15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+It will show this:
+
+diff --git a/U-TIM (version 1.0).pdf b/U-TIM (version 1.0).pdf
+new file mode 100644
+index 0000000..ac03da0
+Binary files /dev/null and b/U-TIM (version 1.0).pdf differ
+
+Showing that the PDF was added for the first time, with no prior versions to it.
+
+AND
+
+git reflog 15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+This will not produce output, meaning that no changes or alterations have been made to the commit via rebase or amend operations.
+
+To be extra sure, compare the SHA-256 hashes provided in the original commit (while GitHub does not delete it) and in the PDF located inside U-TIM_Proof_of_Authorship/U-TIM-archive.zip
+
+**Conclusion:**
 
 This note ensures that everyone understands that the original U-TIM (version 1.0).pdf file has not been modified, and the repository’s history is accurately reflected in the commit logs. The new files are simply for documentation purposes related to citations and the future licensing transition.
 
