@@ -16,11 +16,13 @@ This statement is legally binding and serves as protection against any attempt t
 
 12d48d72544063cb0d9ea5c9dc80d54573f0f1cb6fc074d6da1dae4d94ed9b43
 
-IMPORTANT NOTE: Clarification on Commit History and File Integrity
-Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original Commit)
+**IMPORTANT NOTE:** 
+
+Clarification on Commit History and File Integrity
+Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original PDF Commit)
 
   On February 6, 2025, I made the original commit that added the first version of the U-TIM framework (U-TIM (version 1.0).pdf) to the repository.
-  The content of the U-TIM (version 1.0).pdf file has remained unchanged throughout the history of the project.
+  The content of the "U-TIM (version 1.0).pdf" file has remained unchanged throughout the history of the project.
   I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. If you see any discrepancy in the history or commit integrity, please feel free to contact me.
 
 New Files Added in Subsequent Commit (7c48075)
@@ -63,7 +65,7 @@ If you have any questions about these changes or would like to discuss the licen
   CC0_ACTIVATION_GUIDE.md for future licensing details
   LICENSE_CC0.md for the full terms of the CC0 license
 
-If you want to compare to the original 15d8ccf6e40bf84791610acee139ba54aa1b32ca, please check U-TIM_Proof_of_Authorship/U-TIM-archive.zip
+If you want to compare to the original 15d8ccf6e40bf84791610acee139ba54aa1b32ca commit, please check U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
 Conclusion:
 
