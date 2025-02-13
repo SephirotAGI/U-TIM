@@ -25,24 +25,6 @@ Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original PDF Commit)
   The content of the "U-TIM (version 1.0).pdf" file has remained unchanged throughout the history of the project.
   I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. If you see any discrepancy in the history or commit integrity, please feel free to contact me.
 
-New Files Added in Subsequent Commit (7c48075)
-
-In the latest commit (7c48075), these files appear:
-
-ATTRIBUTION.md:
-   This file provides citation instructions for U-TIM, including a standardized citation format and links to additional citation resources (e.g., BibTeX, APA).
-
-CC0_ACTIVATION_GUIDE.md:
-    This guide explains the future transition of U-TIM to the CC0 (Public Domain) license, which will take effect upon my passing. This ensures that no entity will ever have exclusive control over the project.
-
-LICENSE_CC0.md:
-    This file contains the full CC0 license, which will apply to the framework once I pass away, ensuring that U-TIM enters the public domain.
-
-Why This Matters:
-
-  These new files simply provide important information about how to cite U-TIM and how the license will transition in the future.
-  No changes were made to the core functionality or integrity of the project. The U-TIM (version 1.0).pdf file remains unchanged.
-
 What This Means for You:
 
   If you’re concerned about the authenticity or integrity of the original U-TIM (version 1.0).pdf, I want to assure you that the file has not been modified. The commit timestamp and the file content remain intact.
@@ -58,12 +40,6 @@ In Summary:
   There was no tampering or modification of the original file, and the commit simply had to be restored after a short-term removal.
 
 Next Steps:
-
-If you have any questions about these changes or would like to discuss the licensing transition in more detail, please feel free to reach out or refer to the relevant files:
-
-  ATTRIBUTION.md for citation guidelines
-  CC0_ACTIVATION_GUIDE.md for future licensing details
-  LICENSE_CC0.md for the full terms of the CC0 license
 
 If you want to compare to the original 15d8ccf6e40bf84791610acee139ba54aa1b32ca commit, please check U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
