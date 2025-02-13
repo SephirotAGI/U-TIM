@@ -1,0 +1,1 @@
+This file contains the PDF showing my chat with ChatGPT, where I first had the idea to record the SHA256 verification and then changed my mind to just reintegrate the commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca in main, which led to its purge, since GPT is a horrible guide and I don't know how to code properly.
