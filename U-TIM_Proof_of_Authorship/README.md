@@ -25,14 +25,14 @@ Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original PDF Commit)
   The content of the "U-TIM (version 1.0).pdf" file has remained unchanged throughout the history of the project.
   I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. If you see any discrepancy in the history or commit integrity, please feel free to contact me.
 
-What This Means for You:
+**What This Means for You:**
 
   If you’re concerned about the authenticity or integrity of the original U-TIM (version 1.0).pdf, I want to assure you that the file has not been modified. The commit timestamp and the file content remain intact.
-  The new files I added just provide important information regarding citations and future licensing changes, ensuring that U-TIM remains open and accessible to everyone.
 
 **Commit History and Reversion Explanation:**
 
 If you notice any discrepancies in the commit history or see that the commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca was reintroduced or restored, it's because I reverted to the original commit after it was temporarily removed. I did this to ensure full transparency and that no content was lost during the transition.
+
 In Summary:
 
   The file content of U-TIM (version 1.0).pdf remains unaltered.
@@ -42,7 +42,28 @@ In Summary:
 
 If you want to compare to the original 15d8ccf6e40bf84791610acee139ba54aa1b32ca commit, please check U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
-**Comparison:**
+This can be further confirmed because the first commit from Thu Feb 13 is commit e7dd155e9b140a1a2546ade86649081fb050b92f , which says Restored deleted PDF from original upload commit. The exact prior commit, made  in  Feb 12, 2025, is 5b6e6e9f001e6087878f6f8b4b85245d63a8a171 , which simply updates U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/README.md
+
+For comparison:
+
+git show --no-patch --pretty=format:"%ad" e7dd155e9b140a1a2546ade86649081fb050b92f
+Thu Feb 13 00:00:02 2025 -0300
+
+Converting to UTC-2: Thu Feb 13 01:00:02 2025 -02:00
+
+AND
+
+git show --no-patch --pretty=format:"%ad" 5b6e6e9f001e6087878f6f8b4b85245d63a8a171
+Wed Feb 12 17:13:42 2025 -0300
+
+Converting to UTC-2: Wed Feb 12 18:13:42 2025 -02:00
+
+To be extra sure, run git show --no-patch --pretty=format:"%ad %cd" <commit-hash> for them.
+
+This command will output the Author Date (%ad) and the Committer Date (%cd) of commit, showing the same date and time
+
+
+**Comparison from original commit:**
 
 If you want to be sure, run git log -n 1 --pretty=fuller 15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
@@ -57,6 +78,14 @@ CommitDate: Thu Feb 6 14:46:45 2025 -0300
     Add files via upload
 
 AND
+
+git show --no-patch --pretty=format:"%ad %cd" 15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+It will show this:
+
+Thu Feb 6 14:46:45 2025 -0300 Thu Feb 6 14:46:45 2025 -0300
+
+AND 
 
 git diff 15d8ccf6e40bf84791610acee139ba54aa1b32ca^ 15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
@@ -79,7 +108,7 @@ To be extra sure, compare the SHA-256 hashes provided in the original commit (wh
 
 **Conclusion:**
 
-This note ensures that everyone understands that the original U-TIM (version 1.0).pdf file has not been modified, and the repository’s history is accurately reflected in the commit logs. The new files are simply for documentation purposes related to citations and the future licensing transition.
+This note ensures that everyone understands that the original U-TIM (version 1.0).pdf file has not been modified, and the repository’s history is accurately reflected in the commit logs.
 
 Wayback Machine link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
