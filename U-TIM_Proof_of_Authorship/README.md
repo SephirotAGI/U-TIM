@@ -25,7 +25,7 @@ Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original Commit)
 
 New Files Added in Subsequent Commit (7c48075)
 
-In the latest commit (7c48075), I added the following new files:
+In the latest commit (7c48075), these files appear:
 
 ATTRIBUTION.md:
    This file provides citation instructions for U-TIM, including a standardized citation format and links to additional citation resources (e.g., BibTeX, APA).
