@@ -23,15 +23,43 @@ I have recovered the original version of U-TIM (1.0), along with its cryptograph
 
 https://github.com/SephirotAGI/U-TIM/tree/main/U-TIM_Proof_of_Authorship
 
-Posterior note (2025-02-13):
+Posterior note update (2025-02-14):
 
-I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, the git log --oneline | grep 15d8ccf6e40bf84791610acee139ba54aa1b32ca command does not show results anymore, since the commit was purged/rewritten. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
+In 2025-02-13, I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, I accidentaly removed it from commissions history and put it back there. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
-Check this link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca It contains a snapshot from the commit days before I did this mess.
+Check this link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
-Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
+It contains a snapshot from the commit days before I did this mess.
+
+Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at
+
+https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+As you can see, all commit hashes matches perfectly (Wayback Machine's, the one from U-TIM-archive.zip and the current one at GitHub), as well as their document's SHA256 hashes, indicating that no changes were made.
+
+ 
+
+I also thought that git "log --oneline | grep" served to see commit history of everything, not just the ones that were not deleted. Apparently, I was wrong.
+
+ 
 
 And, please, don't you ever trust ChatGPT for important issues.
+
+ 
+
+For more information about this mistake of mine, check "MisguidedByChatGPT.pdf" in my ArDrive. I also provided a ots file for it.
+
+ 
+
+My ArDrive, in case my GitHub suffers a forced takedown:
+
+https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
+
+ 
+
+If you want to see the other older versions, to see the logical process of creating the core equation (U-TIM), check:
+
+https://github.com/SephirotAGI/U-TIM/tree/main/U-TIM_Proof_of_Authorship/Other%20older%20versions%20(reupload)
 
 **This project will be suspended until I can effectively prove my authorship.**
 
@@ -52,21 +80,17 @@ FOR FULL DETAILS ON THIS PROCESS, SEE THE **[`CC0_ACTIVATION_GUIDE.md`](https://
 
 
 ## What's New in Version 5.1?  
-U-TIM: Universal Theory Incoherence Measure (version 5.1) retains the core U-TIM equa-
-tion introduced in version 5.0, establishing a standardized framework for cross-disciplinary
-theoretical analysis with domain-adaptable components. This version continues to optimize di-
-vergence measures, domain-specific interpretation thresholds, and numerical stability, ensuring
+U-TIM: Universal Theory Incoherence Measure (version 5.1) retains the core U-TIM equation introduced in version 5.0, establishing a standardized framework for cross-disciplinary
+theoretical analysis with domain-adaptable components. This version continues to optimize divergence measures, domain-specific interpretation thresholds, and numerical stability, ensuring
 alignment with established methodologies in quantum physics, ecosystem modeling, economic
 policy, and mathematical foundations.
-Additionally, it maintains the expanded framework of U-TIM-X, first presented in ver-
-sion 5.0—a meta-analytical extension unifying domain-specific U-TIM results into a structured
+Additionally, it maintains the expanded framework of U-TIM-X, first presented in version 5.0—a meta-analytical extension unifying domain-specific U-TIM results into a structured
 cross-domain synthesis. U-TIM-X consists of two complementary formulations: U-TIM-Xstat ,
 for standardized cross-disciplinary comparisons, and U-TIM-Xdyn , for dynamic tracking of
 emerging theoretical instabilities. Together, these extensions establish a unified methodology
 for quantifying and analyzing theoretical divergence across multiple scientific domains.
 This version also includes a correction to the U-TIM-Xdyn equation, ensuring its intended
-functionality, along with an update to the "Note on Divergence Measures" within the Mathe-
-matical Definition of U-TIM-Xdyn.
+functionality, along with an update to the "Note on Divergence Measures" within the Mathematical Definition of U-TIM-Xdyn.
 
 ---
 
