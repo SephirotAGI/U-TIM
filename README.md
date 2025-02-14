@@ -49,6 +49,10 @@ And, please, don't you ever trust ChatGPT for important issues.
 
 For more information about this mistake of mine, check "MisguidedByChatGPT.pdf" in my ArDrive. I also provided a ots file for it.
 
+My ArDrive, in case my GitHub suffers a forced takedown:
+
+https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
+
 **This project will be suspended until I can effectively prove my authorship.**
 
 ---
