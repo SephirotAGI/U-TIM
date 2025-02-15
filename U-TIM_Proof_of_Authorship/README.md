@@ -51,6 +51,8 @@ https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%
 
 Commit 72e0cdab96e23bf0d4ecb9586f2044efc410eac6 , whose parent is 15d8ccf6e40bf84791610acee139ba54aa1b32ca , is intact, with all links functional, which indirectly proves that 15d8ccf6e40bf84791610acee139ba54aa1b32ca was put back in place with NO CHANGES MADE, as any changes in its content would change its commit hash. Link to 72e0cda: https://github.com/SephirotAGI/U-TIM/commit/72e0cdab96e23bf0d4ecb9586f2044efc410eac6
 
+If you still got any doubts, refer to the initial commit: https://github.com/SephirotAGI/U-TIM/commit/796edba11b92293b28f411c657e3d2ed748e0684 . It is the proposal of the idea.
+
 **What This Means for You:**
 
   If you’re concerned about the authenticity or integrity of the original U-TIM (version 1.0).pdf, I want to assure you that the file has not been modified. The commit timestamp and the file content remain intact.
