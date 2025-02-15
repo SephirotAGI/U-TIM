@@ -31,7 +31,7 @@ Check this link: https://web.archive.org/web/20250211060623/https://github.com/S
 
 It contains a snapshot from the commit days before I did this mess.
 
-Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at
+Compare the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at
 
 https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
