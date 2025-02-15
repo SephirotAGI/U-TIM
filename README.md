@@ -14,6 +14,33 @@ See the LICENSE file for full details.
 
 ---
 
+## What's New in Version 5.1?  
+U-TIM: Universal Theory Incoherence Measure (version 5.1) retains the core U-TIM equation introduced in version 5.0, establishing a standardized framework for cross-disciplinary
+theoretical analysis with domain-adaptable components. This version continues to optimize divergence measures, domain-specific interpretation thresholds, and numerical stability, ensuring
+alignment with established methodologies in quantum physics, ecosystem modeling, economic
+policy, and mathematical foundations.
+Additionally, it maintains the expanded framework of U-TIM-X, first presented in version 5.0—a meta-analytical extension unifying domain-specific U-TIM results into a structured
+cross-domain synthesis. U-TIM-X consists of two complementary formulations: U-TIM-Xstat ,
+for standardized cross-disciplinary comparisons, and U-TIM-Xdyn , for dynamic tracking of
+emerging theoretical instabilities. Together, these extensions establish a unified methodology
+for quantifying and analyzing theoretical divergence across multiple scientific domains.
+This version also includes a correction to the U-TIM-Xdyn equation, ensuring its intended
+functionality, along with an update to the "Note on Divergence Measures" within the Mathematical Definition of U-TIM-Xdyn.
+
+---
+
+**IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
+UPON CONFIRMATION OF MY DEATH, U-TIM, AS WELL AS ANY IMPLEMENTATIONS OF IT,  
+INCLUDING SOFTWARE, ALGORITHMS, AND DERIVED WORKS, SHALL IMMEDIATELY AND PERMANENTLY  
+TRANSITION TO THE **PUBLIC DOMAIN UNDER CC0**.  
+
+NO ENTITY—CORPORATE, GOVERNMENTAL, OR OTHERWISE—MAY IMPOSE RESTRICTIONS OR  
+CLAIM EXCLUSIVE RIGHTS OVER U-TIM OR ANY OF ITS DERIVATIVES. THIS TRANSITION IS **AUTOMATIC AND IRREVERSIBLE**.  
+
+FOR FULL DETAILS ON THIS PROCESS, SEE THE **[`CC0_ACTIVATION_GUIDE.md`](https://github.com/SephirotAGI/U-TIM/tree/main/CC0_Trigger/CC0_ACTIVATION_GUIDE.md)**.
+
+---
+
 🚨 IMPORTANT NOTE: 🚨
 I have recovered the original version of U-TIM (1.0), along with its cryptographic proof of authorship, ensuring that the first publicly recorded version of U-TIM remains verifiable and immutable.
 
@@ -54,35 +81,6 @@ My ArDrive, in case my GitHub suffers a forced takedown:
 https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
 
 Commit 72e0cdab96e23bf0d4ecb9586f2044efc410eac6 , whose parent is 15d8ccf6e40bf84791610acee139ba54aa1b32ca , is intact, with all links functional, which indirectly proves that 15d8ccf6e40bf84791610acee139ba54aa1b32ca was put back in place with NO CHANGES MADE, as any changes in its content would change its commit hash. Link to 72e0cda: https://github.com/SephirotAGI/U-TIM/commit/72e0cdab96e23bf0d4ecb9586f2044efc410eac6
-
----
-
-**IMPORTANT NOTE**: I HAVE CREATED A FOLDER NAMED `CC0_Trigger` UNDER THE MAIN BRANCH.  
-UPON CONFIRMATION OF MY DEATH, U-TIM, AS WELL AS ANY IMPLEMENTATIONS OF IT,  
-INCLUDING SOFTWARE, ALGORITHMS, AND DERIVED WORKS, SHALL IMMEDIATELY AND PERMANENTLY  
-TRANSITION TO THE **PUBLIC DOMAIN UNDER CC0**.  
-
-NO ENTITY—CORPORATE, GOVERNMENTAL, OR OTHERWISE—MAY IMPOSE RESTRICTIONS OR  
-CLAIM EXCLUSIVE RIGHTS OVER U-TIM OR ANY OF ITS DERIVATIVES. THIS TRANSITION IS **AUTOMATIC AND IRREVERSIBLE**.  
-
-FOR FULL DETAILS ON THIS PROCESS, SEE THE **[`CC0_ACTIVATION_GUIDE.md`](https://github.com/SephirotAGI/U-TIM/tree/main/CC0_Trigger/CC0_ACTIVATION_GUIDE.md)**.
-
-
----
-
-
-## What's New in Version 5.1?  
-U-TIM: Universal Theory Incoherence Measure (version 5.1) retains the core U-TIM equation introduced in version 5.0, establishing a standardized framework for cross-disciplinary
-theoretical analysis with domain-adaptable components. This version continues to optimize divergence measures, domain-specific interpretation thresholds, and numerical stability, ensuring
-alignment with established methodologies in quantum physics, ecosystem modeling, economic
-policy, and mathematical foundations.
-Additionally, it maintains the expanded framework of U-TIM-X, first presented in version 5.0—a meta-analytical extension unifying domain-specific U-TIM results into a structured
-cross-domain synthesis. U-TIM-X consists of two complementary formulations: U-TIM-Xstat ,
-for standardized cross-disciplinary comparisons, and U-TIM-Xdyn , for dynamic tracking of
-emerging theoretical instabilities. Together, these extensions establish a unified methodology
-for quantifying and analyzing theoretical divergence across multiple scientific domains.
-This version also includes a correction to the U-TIM-Xdyn equation, ensuring its intended
-functionality, along with an update to the "Note on Divergence Measures" within the Mathematical Definition of U-TIM-Xdyn.
 
 ---
 
