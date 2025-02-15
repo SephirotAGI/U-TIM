@@ -25,12 +25,31 @@ Commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca (Original PDF Commit)
   The content of the "U-TIM (version 1.0).pdf" file has remained unchanged throughout the history of the project.
   I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. If you see any discrepancy in the history or commit integrity, please feel free to contact me.
 
-  The git log --oneline | grep 15d8ccf6e40bf84791610acee139ba54aa1b32ca command does not show results anymore, since the commit was purged/rewritten because of a mistake I committed, following ChatGPT's commands blindly. So, please compare the results from the current 15d8ccf6e40bf84791610acee139ba54aa1b32ca with U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
+  Posterior note update:
 
-  Check this link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
-  It contains a snapshot from the commit days before I did this mess.
+In 2025-02-13, I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, I accidentaly removed it from commissions history and put it back there. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
-  Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
+Check this link: https://web.archive.org/web/20250211060623/https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+It contains a snapshot from the commit days before I did this mess.
+
+Compare the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one available at
+
+https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
+
+As you can see, all commit hashes matches perfectly (Wayback Machine's, the one from U-TIM-archive.zip and the current one at GitHub), as well as their documents' SHA256 hashes, indicating that no changes were made.
+
+I also thought that git "log --oneline | grep" served to see commit history of everything, not just the ones that were not deleted. Apparently, I was wrong.
+
+And, please, don't you ever trust ChatGPT for important issues.
+
+For more information about this mistake of mine, check "MisguidedByChatGPT.pdf" in my ArDrive. I also provided a ots file for it.
+
+My ArDrive, in case my GitHub suffers a forced takedown:
+
+https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
+
+Commit 72e0cdab96e23bf0d4ecb9586f2044efc410eac6 , whose parent is 15d8ccf6e40bf84791610acee139ba54aa1b32ca , is intact, with all links functional, which indirectly proves that 15d8ccf6e40bf84791610acee139ba54aa1b32ca was put back in place with NO CHANGES MADE, as any changes in its content would change its commit hash. Link to 72e0cda: https://github.com/SephirotAGI/U-TIM/commit/72e0cdab96e23bf0d4ecb9586f2044efc410eac6
 
 **What This Means for You:**
 
