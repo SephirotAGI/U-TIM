@@ -53,9 +53,7 @@ My ArDrive, in case my GitHub suffers a forced takedown:
 
 https://app.ardrive.io/#/drives/4a0b4542-3ce8-4732-b22a-988a6934c666?name=U-TIM%3A+Proof+of+Authorship
 
-Commit  72e0cdab96e23bf0d4ecb9586f2044efc410eac6 , whose parent is 15d8ccf6e40bf84791610acee139ba54aa1b32ca , is intact, with all links functional, which indirectly proves that 15d8ccf6e40bf84791610acee139ba54aa1b32ca was put back in place with NO CHANGES MADE, as this would change its commit hash. Link to 72e0cda: https://github.com/SephirotAGI/U-TIM/commit/72e0cdab96e23bf0d4ecb9586f2044efc410eac6
-
-**This project will be suspended until I can effectively prove my authorship.**
+Commit 72e0cdab96e23bf0d4ecb9586f2044efc410eac6 , whose parent is 15d8ccf6e40bf84791610acee139ba54aa1b32ca , is intact, with all links functional, which indirectly proves that 15d8ccf6e40bf84791610acee139ba54aa1b32ca was put back in place with NO CHANGES MADE, as any changes in its content would change its commit hash. Link to 72e0cda: https://github.com/SephirotAGI/U-TIM/commit/72e0cdab96e23bf0d4ecb9586f2044efc410eac6
 
 ---
 
