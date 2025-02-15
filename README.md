@@ -23,7 +23,7 @@ I have recovered the original version of U-TIM (1.0), along with its cryptograph
 
 https://github.com/SephirotAGI/U-TIM/tree/main/U-TIM_Proof_of_Authorship
 
-Posterior note update (2025-02-14):
+Posterior note update:
 
 In 2025-02-13, I tried to restore commit 15d8ccf6e40bf84791610acee139ba54aa1b32ca, but with no success. By following ChatGPT's orders blindly, I accidentaly removed it from commissions history and put it back there. To confirm it's authenticity, please refer to U-TIM_Proof_of_Authorship/U-TIM-archive.zip, since it contains all metadata from this commit from no later than 2025-02-12 -02. To check this, verify the respective ots file: U-TIM_Proof_of_Authorship/ots-proofs-2025-02-12/U-TIM-archive.zip.ots
 
@@ -35,7 +35,7 @@ Check the SHA256 hash provided in the U-TIM-archive.zip's PDF with the one avail
 
 https://github.com/SephirotAGI/U-TIM/commit/15d8ccf6e40bf84791610acee139ba54aa1b32ca
 
-As you can see, all commit hashes matches perfectly (Wayback Machine's, the one from U-TIM-archive.zip and the current one at GitHub), as well as their document's SHA256 hashes, indicating that no changes were made.
+As you can see, all commit hashes matches perfectly (Wayback Machine's, the one from U-TIM-archive.zip and the current one at GitHub), as well as their documents' SHA256 hashes, indicating that no changes were made.
 
  
 
