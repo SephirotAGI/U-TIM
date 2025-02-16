@@ -10,6 +10,12 @@
 This work is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
 See the LICENSE file for full details.  
 
+Clarification on the Active License Terms:
+Although the CC BY 4.0 license text inside the document does not explicitly state that sharing is allowed for any purpose, including commercial use, this is implicitly permitted, as my license does not impose any such restriction. The original Creative Commons Attribution 4.0 International License (CC BY 4.0)—which is the one that legally applies (and to which a link is provided within the license text)—explicitly allows sharing and adaptation for any purpose, including commercial use.
+
+For the full terms, refer to the official license:
+https://creativecommons.org/licenses/by/4.0/
+
 🔗 **Zenodo Page (Latest Version):** [Zenodo Record](https://zenodo.org/records/14846098)
 
 ---
