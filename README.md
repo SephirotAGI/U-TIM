@@ -12,7 +12,7 @@ See the LICENSE file for full details.
 
 **IMPORTANT: Clarification on the Active License Terms**
 
-The CC BY 4.0 license text inside the LICENSE file and all document versions (including every version released so far) does not explicitly state that sharing is allowed for any purpose, including commercial use. However, this is implicitly permitted, as my license does not impose any such restriction.
+The CC BY 4.0 license text inside the LICENSE file and all document versions (including every version released so far) does not explicitly state that sharing is allowed for any purpose, including commercial use. **However, this is implicitly permitted, as my license does not impose any such restriction.**
 
 The original Creative Commons Attribution 4.0 International License (CC BY 4.0)—which is the one that legally applies (and is linked within the license text)—explicitly allows sharing and adaptation for any purpose, including commercial use.
 
