@@ -50,7 +50,7 @@ This transition is considered **legally valid and enforceable** upon **any of th
 
 ---
 
-### 🧬 Identity Tampering or Substitution Clause
+### Identity Tampering or Substitution Clause
 
 If a credible attempt is made to impersonate, replicate, or substitute João Lucas Meira Costa through artificial, cloned, coerced, or digitally fabricated means,  
 including but not limited to:
@@ -63,7 +63,7 @@ triggering the CC0 transition immediately and irreversibly.
 
 ---
 
-### ☠️ Executor Chain of Custody Failure Clause
+### Executor Chain of Custody Failure Clause
 
 If all designated trusted executors:
 - Die,  
